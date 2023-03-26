@@ -1,0 +1,19 @@
+@import "../../temp";
+
+nav.nav-bar {
+  @include flexCenter();
+  justify-content: space-between;
+  background-color: #000;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+
+  .nav-logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 45px;
+    }
+  }
+}
